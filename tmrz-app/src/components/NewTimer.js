@@ -6,8 +6,9 @@ import { addTimer } from '../actions'
 export default function NewTimer() {
 	const [ name, setName ] = useState('')
 	const dispatch = useDispatch()
+
 	return (
-		<div>
+		<div className="NewTimer">
 			<input
 				type='text'
 				placeholder="New Timer Name"
